@@ -5,7 +5,6 @@ def run():
     words = read()
     word = words[random.randint(0, len(words))]
     underscore = "_ "*len(word)
-    print(word)
     intentos = 0
     aciertos = 0
     limite = 5
